@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmycompany_docs=self.webpackChunkmycompany_docs||[]).push([["2612"],{5560:function(o){o.exports=JSON.parse('{"metadata":{"permalink":"/ru/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

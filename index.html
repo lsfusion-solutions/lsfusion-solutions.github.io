@@ -1,297 +1,297 @@
-<!doctype html><html lang=ru dir=ltr class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-overview" data-has-hydrated=false><meta charset=UTF-8><meta name=generator content="Docusaurus v3.7.0"><title data-rh=true>Модули системы — обзор | MyCompany documentation</title><meta data-rh=true name=viewport content="width=device-width, initial-scale=1.0"><meta data-rh=true name=twitter:card content=summary_large_image><meta data-rh=true property=og:url content=https://lsfusion-solutions.github.io/><meta data-rh=true property=og:locale content=ru><meta data-rh=true property=og:locale:alternate content=en><meta data-rh=true property=og:locale:alternate content=pl><meta data-rh=true name=docusaurus_locale content=ru><meta data-rh=true name=docsearch:language content=ru><meta data-rh=true name=docusaurus_version content=current><meta data-rh=true name=docusaurus_tag content=docs-default-current><meta data-rh=true name=docsearch:version content=current><meta data-rh=true name=docsearch:docusaurus_tag content=docs-default-current><meta data-rh=true property=og:title content="Модули системы — обзор | MyCompany documentation"><meta data-rh=true name=description content="Этот документ — обзор по функциональным модулям MyCompany: за что отвечает каждый раздел, какие задачи им решают пользователи, как модули связываются в сквозные процессы и куда перейти за подробными инструкциями."><meta data-rh=true property=og:description content="Этот документ — обзор по функциональным модулям MyCompany: за что отвечает каждый раздел, какие задачи им решают пользователи, как модули связываются в сквозные процессы и куда перейти за подробными инструкциями."><link data-rh=true rel=icon href=/img/favicon.ico><link data-rh=true rel=canonical href=https://lsfusion-solutions.github.io/><link data-rh=true rel=alternate href=https://lsfusion-solutions.github.io/en/ hreflang=en><link data-rh=true rel=alternate href=https://lsfusion-solutions.github.io/ hreflang=ru><link data-rh=true rel=alternate href=https://lsfusion-solutions.github.io/pl/ hreflang=pl><link data-rh=true rel=alternate href=https://lsfusion-solutions.github.io/ hreflang=x-default><script data-rh=true>document.addEventListener("DOMContentLoaded",function(){void 0===window.docusaurus&&insertBanner()});function insertBanner(){var n=document.createElement("div");n.id="__docusaurus-base-url-issue-banner-container",n.innerHTML='\n<div id="__docusaurus-base-url-issue-banner" style="border: thick solid red; background-color: rgb(255, 230, 179); margin: 20px; padding: 20px; font-size: 20px;">\n   <p style="font-weight: bold; font-size: 30px;">Your Docusaurus site did not load properly.</p>\n   <p>A very common reason is a wrong site <a href="https://docusaurus.io/docs/docusaurus.config.js/#baseUrl" style="font-weight: bold;">baseUrl configuration</a>.</p>\n   <p>Current configured baseUrl = <span style="font-weight: bold; color: red;">/</span>  (default value)</p>\n   <p>We suggest trying baseUrl = <span id="__docusaurus-base-url-issue-banner-suggestion-container" style="font-weight: bold; color: green;"></span></p>\n</div>\n',document.body.prepend(n);var e=document.getElementById("__docusaurus-base-url-issue-banner-suggestion-container"),s=window.location.pathname;e.innerHTML="/"===s.substr(-1)?s:s+"/"}</script><link rel=alternate type=application/rss+xml href=/blog/rss.xml title="MyCompany documentation RSS Feed"><link rel=alternate type=application/atom+xml href=/blog/atom.xml title="MyCompany documentation Atom Feed"><link rel=preconnect href=https://www.google-analytics.com><script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-38678623-1","auto"),ga("send","pageview")</script><script async src=https://www.google-analytics.com/analytics.js></script><link rel=preconnect href=https://www.google-analytics.com><link rel=preconnect href=https://www.googletagmanager.com><script async src="https://www.googletagmanager.com/gtag/js?id=G-9PP67L9JM9"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-9PP67L9JM9",{})</script><link rel=stylesheet href=/assets/css/styles.a546c6e9.css><script src=/assets/js/runtime~main.b59dd02a.js defer></script><script src=/assets/js/main.0ee9d473.js defer></script><body class=navigation-with-keyboard><script>!function(){var t,e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t=null!==e?e:"light",document.documentElement.setAttribute("data-theme",t)}(),function(){try{for(var[t,e]of new URLSearchParams(window.location.search).entries())if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id=__docusaurus><div role=region aria-label="Перейти к основному содержимому"><a class=skipToContent_fXgn href=#__docusaurus_skipToContent_fallback>Перейти к основному содержимому</a></div><nav aria-label=Main class="navbar navbar--fixed-top"><div class=navbar__inner><div class=navbar__items><button aria-label="Переключить навигационную панель" aria-expanded=false class="navbar__toggle clean-btn" type=button><svg width=30 height=30 viewBox="0 0 30 30" aria-hidden=true><path stroke=currentColor stroke-linecap=round stroke-miterlimit=10 stroke-width=2 d="M4 7h22M4 15h22M4 23h22"/></svg></button><a class=navbar__brand href=/><div class=navbar__logo><img src=/img/logo.png alt=Logo class="themedComponent_mlkZ themedComponent--light_NVdE"><img src=/img/logo.png alt=Logo class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">MyCompany</b></a></div><div class="navbar__items navbar__items--right"><a href=https://github.com/lsfusion-solutions/mycompany target=_blank rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href=# aria-haspopup=true aria-expanded=false role=button class=navbar__link><svg viewBox="0 0 24 24" width=20 height=20 aria-hidden=true class=iconLanguage_nlXk><path fill=currentColor d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/></svg>Русский</a><ul class=dropdown__menu><li><a href=/en/ target=_self rel="noopener noreferrer" class=dropdown__link lang=en>English</a><li><a href=/ target=_self rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang=ru>Русский</a><li><a href=/pl/ target=_self rel="noopener noreferrer" class=dropdown__link lang=pl>Polski</a></ul></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type=button disabled title="Переключение между темным и светлым режимом (сейчас используется Светлый режим)" aria-label="Переключение между темным и светлым режимом (сейчас используется Светлый режим)" aria-live=polite aria-pressed=false><svg viewBox="0 0 24 24" width=24 height=24 class=lightToggleIcon_pyhR><path fill=currentColor d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"/></svg><svg viewBox="0 0 24 24" width=24 height=24 class=darkToggleIcon_wfgR><path fill=currentColor d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"/></svg></button></div><div class=navbarSearchContainer_Bca1></div></div></div><div role=presentation class=navbar-sidebar__backdrop></div></nav><div id=__docusaurus_skipToContent_fallback class="main-wrapper mainWrapper_z2l0"><div class=docsWrapper_hBAB><button aria-label="Прокрутка к началу" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type=button></button><div class=docRoot_UBD9><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class=sidebarViewport_aRkj><div class=sidebar_njMd><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current=page href=/>Модули системы — обзор</a><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/administration/>Администрирование</a><button aria-label="Expand sidebar category 'Администрирование'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/masterdata/>Справочники</a><button aria-label="Expand sidebar category 'Справочники'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/inventory/>Склад</a><button aria-label="Expand sidebar category 'Склад'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/invoicing/>Расчёты</a><button aria-label="Expand sidebar category 'Расчёты'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/purchase/>Закупки</a><button aria-label="Expand sidebar category 'Закупки'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/manufacturing/>Производство</a><button aria-label="Expand sidebar category 'Производство'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/sales/>Продажи</a><button aria-label="Expand sidebar category 'Продажи'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/retail/>Розница</a><button aria-label="Expand sidebar category 'Розница'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/projectManagement/>Проекты</a><button aria-label="Expand sidebar category 'Проекты'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/humanResources/>Кадры</a><button aria-label="Expand sidebar category 'Кадры'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/crm/>CRM</a><button aria-label="Expand sidebar category 'CRM'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/transport/>Автопарк</a><button aria-label="Expand sidebar category 'Автопарк'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div></ul></nav></div></div></aside><main class=docMainContainer_TBSr><div class="container padding-top--md padding-bottom--lg"><div class=row><div class="col docItemCol_VOVn"><div class=docItemContainer_Djhp><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Навигационная цепочка текущей страницы"><ul class=breadcrumbs itemscope itemtype=https://schema.org/BreadcrumbList><li class=breadcrumbs__item><a aria-label="Главная страница" class=breadcrumbs__link href=/><svg viewBox="0 0 24 24" class=breadcrumbHomeIcon_YNFT><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill=currentColor /></svg></a><li itemscope itemprop=itemListElement itemtype=https://schema.org/ListItem class="breadcrumbs__item breadcrumbs__item--active"><span class=breadcrumbs__link itemprop=name>Модули системы — обзор</span><meta itemprop=position content=1></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type=button class="clean-btn tocCollapsibleButton_TO0P">Содержание этой страницы</button></div><div class="theme-doc-markdown markdown"><header><h1>Модули системы — обзор</h1></header><p>Этот документ — <strong>обзор по функциональным модулям MyCompany</strong>: за что отвечает каждый раздел, какие задачи им решают пользователи, как модули связываются в сквозные процессы и куда перейти за подробными инструкциями.</p>
-<p>Если в вашей конфигурации часть пунктов меню или действий отсутствует — это нормально: набор возможностей зависит от включённых модулей, настроек и прав пользователя.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id=быстрая-навигация>Быстрая навигация<a href=#быстрая-навигация class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h2>
+<!doctype html><html lang=en dir=ltr class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-overview" data-has-hydrated=false><meta charset=UTF-8><meta name=generator content="Docusaurus v3.7.0"><title data-rh=true>System Modules — Overview | MyCompany documentation</title><meta data-rh=true name=viewport content="width=device-width, initial-scale=1.0"><meta data-rh=true name=twitter:card content=summary_large_image><meta data-rh=true property=og:url content=https://lsfusion-solutions.github.io/><meta data-rh=true property=og:locale content=en><meta data-rh=true property=og:locale:alternate content=ru><meta data-rh=true property=og:locale:alternate content=pl><meta data-rh=true name=docusaurus_locale content=en><meta data-rh=true name=docsearch:language content=en><meta data-rh=true name=docusaurus_version content=current><meta data-rh=true name=docusaurus_tag content=docs-default-current><meta data-rh=true name=docsearch:version content=current><meta data-rh=true name=docsearch:docusaurus_tag content=docs-default-current><meta data-rh=true property=og:title content="System Modules — Overview | MyCompany documentation"><meta data-rh=true name=description content="This document is an overview of MyCompany functional modules: what each section is responsible for, which user tasks it solves, how modules are linked into end‑to‑end processes, and where to go for detailed instructions."><meta data-rh=true property=og:description content="This document is an overview of MyCompany functional modules: what each section is responsible for, which user tasks it solves, how modules are linked into end‑to‑end processes, and where to go for detailed instructions."><link data-rh=true rel=icon href=/img/favicon.ico><link data-rh=true rel=canonical href=https://lsfusion-solutions.github.io/><link data-rh=true rel=alternate href=https://lsfusion-solutions.github.io/ hreflang=en><link data-rh=true rel=alternate href=https://lsfusion-solutions.github.io/ru/ hreflang=ru><link data-rh=true rel=alternate href=https://lsfusion-solutions.github.io/pl/ hreflang=pl><link data-rh=true rel=alternate href=https://lsfusion-solutions.github.io/ hreflang=x-default><script data-rh=true>document.addEventListener("DOMContentLoaded",function(){void 0===window.docusaurus&&insertBanner()});function insertBanner(){var n=document.createElement("div");n.id="__docusaurus-base-url-issue-banner-container",n.innerHTML='\n<div id="__docusaurus-base-url-issue-banner" style="border: thick solid red; background-color: rgb(255, 230, 179); margin: 20px; padding: 20px; font-size: 20px;">\n   <p style="font-weight: bold; font-size: 30px;">Your Docusaurus site did not load properly.</p>\n   <p>A very common reason is a wrong site <a href="https://docusaurus.io/docs/docusaurus.config.js/#baseUrl" style="font-weight: bold;">baseUrl configuration</a>.</p>\n   <p>Current configured baseUrl = <span style="font-weight: bold; color: red;">/</span>  (default value)</p>\n   <p>We suggest trying baseUrl = <span id="__docusaurus-base-url-issue-banner-suggestion-container" style="font-weight: bold; color: green;"></span></p>\n</div>\n',document.body.prepend(n);var e=document.getElementById("__docusaurus-base-url-issue-banner-suggestion-container"),s=window.location.pathname;e.innerHTML="/"===s.substr(-1)?s:s+"/"}</script><link rel=alternate type=application/rss+xml href=/blog/rss.xml title="MyCompany documentation RSS Feed"><link rel=alternate type=application/atom+xml href=/blog/atom.xml title="MyCompany documentation Atom Feed"><link rel=preconnect href=https://www.google-analytics.com><script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-38678623-1","auto"),ga("send","pageview")</script><script async src=https://www.google-analytics.com/analytics.js></script><link rel=preconnect href=https://www.google-analytics.com><link rel=preconnect href=https://www.googletagmanager.com><script async src="https://www.googletagmanager.com/gtag/js?id=G-9PP67L9JM9"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-9PP67L9JM9",{})</script><link rel=stylesheet href=/assets/css/styles.a546c6e9.css><script src=/assets/js/runtime~main.06a5010b.js defer></script><script src=/assets/js/main.cbb715e4.js defer></script><body class=navigation-with-keyboard><script>!function(){var t,e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t=null!==e?e:"light",document.documentElement.setAttribute("data-theme",t)}(),function(){try{for(var[t,e]of new URLSearchParams(window.location.search).entries())if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id=__docusaurus><div role=region aria-label="Skip to main content"><a class=skipToContent_fXgn href=#__docusaurus_skipToContent_fallback>Skip to main content</a></div><nav aria-label=Main class="navbar navbar--fixed-top"><div class=navbar__inner><div class=navbar__items><button aria-label="Toggle navigation bar" aria-expanded=false class="navbar__toggle clean-btn" type=button><svg width=30 height=30 viewBox="0 0 30 30" aria-hidden=true><path stroke=currentColor stroke-linecap=round stroke-miterlimit=10 stroke-width=2 d="M4 7h22M4 15h22M4 23h22"/></svg></button><a class=navbar__brand href=/><div class=navbar__logo><img src=/img/logo.png alt=Logo class="themedComponent_mlkZ themedComponent--light_NVdE"><img src=/img/logo.png alt=Logo class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">MyCompany</b></a></div><div class="navbar__items navbar__items--right"><a href=https://github.com/lsfusion-solutions/mycompany target=_blank rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href=# aria-haspopup=true aria-expanded=false role=button class=navbar__link><svg viewBox="0 0 24 24" width=20 height=20 aria-hidden=true class=iconLanguage_nlXk><path fill=currentColor d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/></svg>English</a><ul class=dropdown__menu><li><a href=/ target=_self rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang=en>English</a><li><a href=/ru/ target=_self rel="noopener noreferrer" class=dropdown__link lang=ru>Русский</a><li><a href=/pl/ target=_self rel="noopener noreferrer" class=dropdown__link lang=pl>Polski</a></ul></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type=button disabled title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live=polite aria-pressed=false><svg viewBox="0 0 24 24" width=24 height=24 class=lightToggleIcon_pyhR><path fill=currentColor d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"/></svg><svg viewBox="0 0 24 24" width=24 height=24 class=darkToggleIcon_wfgR><path fill=currentColor d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"/></svg></button></div><div class=navbarSearchContainer_Bca1></div></div></div><div role=presentation class=navbar-sidebar__backdrop></div></nav><div id=__docusaurus_skipToContent_fallback class="main-wrapper mainWrapper_z2l0"><div class=docsWrapper_hBAB><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type=button></button><div class=docRoot_UBD9><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class=sidebarViewport_aRkj><div class=sidebar_njMd><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current=page href=/>System Modules — Overview</a><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/administration/>Administration</a><button aria-label="Expand sidebar category 'Administration'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/masterdata/>Master Data</a><button aria-label="Expand sidebar category 'Master Data'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/inventory/>Inventory</a><button aria-label="Expand sidebar category 'Inventory'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/invoicing/>Invoicing</a><button aria-label="Expand sidebar category 'Invoicing'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/purchase/>Purchase</a><button aria-label="Expand sidebar category 'Purchase'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/manufacturing/>Manufacturing</a><button aria-label="Expand sidebar category 'Manufacturing'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/sales/>Sales</a><button aria-label="Expand sidebar category 'Sales'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/retail/>Retail</a><button aria-label="Expand sidebar category 'Retail'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/projectManagement/>Project Management</a><button aria-label="Expand sidebar category 'Project Management'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/humanResources/>Human Resources</a><button aria-label="Expand sidebar category 'Human Resources'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/crm/>CRM</a><button aria-label="Expand sidebar category 'CRM'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" href=/transport/>Transport</a><button aria-label="Expand sidebar category 'Transport'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div></ul></nav></div></div></aside><main class=docMainContainer_TBSr><div class="container padding-top--md padding-bottom--lg"><div class=row><div class="col docItemCol_VOVn"><div class=docItemContainer_Djhp><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label=Breadcrumbs><ul class=breadcrumbs itemscope itemtype=https://schema.org/BreadcrumbList><li class=breadcrumbs__item><a aria-label="Home page" class=breadcrumbs__link href=/><svg viewBox="0 0 24 24" class=breadcrumbHomeIcon_YNFT><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill=currentColor /></svg></a><li itemscope itemprop=itemListElement itemtype=https://schema.org/ListItem class="breadcrumbs__item breadcrumbs__item--active"><span class=breadcrumbs__link itemprop=name>System Modules — Overview</span><meta itemprop=position content=1></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type=button class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>System Modules — Overview</h1></header><p>This document is an <strong>overview of MyCompany functional modules</strong>: what each section is responsible for, which user tasks it solves, how modules are linked into end‑to‑end processes, and where to go for detailed instructions.</p>
+<p>If some menu items or actions are missing in your configuration, that is normal: the available functionality depends on enabled modules, settings, and user permissions.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id=quick-navigation>Quick navigation<a href=#quick-navigation class=hash-link aria-label="Direct link to Quick navigation" title="Direct link to Quick navigation">​</a></h2>
 <ul>
-<li><a href=/administration/>Администрирование</a></li>
-<li><a href=#%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8>Справочники</a></li>
-<li><a href=#%D0%BA%D0%B0%D1%80%D1%82%D0%B0-%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B5%D0%B9-%D0%B8-%D1%81%D0%BA%D0%B2%D0%BE%D0%B7%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B>Карта модулей и сквозные процессы</a></li>
-<li><a href=#%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8>Модули</a>
+<li><a href=/administration/>Administration</a></li>
+<li><a href=#master-data>Master Data</a></li>
+<li><a href=#module-map-and-end-to-end-processes>Module map and end-to-end processes</a></li>
+<li><a href=#modules>Modules</a>
 <ul>
-<li><a href=#%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8>Справочники</a></li>
-<li><a href=#%D1%81%D0%BA%D0%BB%D0%B0%D0%B4>Склад</a></li>
-<li><a href=#%D1%80%D0%B0%D1%81%D1%87%D1%91%D1%82%D1%8B>Расчёты</a></li>
-<li><a href=#%D0%B7%D0%B0%D0%BA%D1%83%D0%BF%D0%BA%D0%B0>Закупка</a></li>
-<li><a href=#%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE>Производство</a></li>
-<li><a href=#%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B8>Продажи</a></li>
-<li><a href=#%D1%80%D0%BE%D0%B7%D0%BD%D0%B8%D1%86%D0%B0>Розница</a></li>
-<li><a href=#%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B>Проекты</a></li>
-<li><a href=#%D0%BA%D0%B0%D0%B4%D1%80%D1%8B>Кадры</a></li>
+<li><a href=#master-data>Master Data</a></li>
+<li><a href=#inventory>Inventory</a></li>
+<li><a href=#invoicing>Invoicing</a></li>
+<li><a href=#purchase>Purchase</a></li>
+<li><a href=#manufacturing>Manufacturing</a></li>
+<li><a href=#sales>Sales</a></li>
+<li><a href=#retail>Retail</a></li>
+<li><a href=#project-management>Project Management</a></li>
+<li><a href=#human-resources>Human Resources</a></li>
 <li><a href=#crm>CRM</a></li>
-<li><a href=#%D0%B0%D0%B2%D1%82%D0%BE%D0%BF%D0%B0%D1%80%D0%BA>Автопарк</a></li>
+<li><a href=#transport>Transport</a></li>
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id=карта-модулей-и-сквозные-процессы>Карта модулей и сквозные процессы<a href=#карта-модулей-и-сквозные-процессы class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h2>
-<p>Ниже — типовые «цепочки» между разделами. В конкретной организации часть шагов может быть отключена или настроена иначе.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=продажи-от-лида-до-оплаты>Продажи (от лида до оплаты)<a href=#продажи-от-лида-до-оплаты class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id=module-map-and-end-to-end-processes>Module map and end-to-end processes<a href=#module-map-and-end-to-end-processes class=hash-link aria-label="Direct link to Module map and end-to-end processes" title="Direct link to Module map and end-to-end processes">​</a></h2>
+<p>Below are typical “chains” between modules. In a particular organization, some steps may be disabled or configured differently.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=sales-lead-to-cash>Sales (lead-to-cash)<a href=#sales-lead-to-cash class=hash-link aria-label="Direct link to Sales (lead-to-cash)" title="Direct link to Sales (lead-to-cash)">​</a></h3>
 <ol>
-<li><strong>CRM</strong> — ведение лида и коммуникаций.</li>
-<li><strong>Продажи</strong> — заказ покупателя, условия отгрузки.</li>
-<li><strong>Склад</strong> (если используется складской контур) — отгрузка/движение товара.</li>
-<li><strong>Розница</strong> — касса, смены, чек, оплата.</li>
-<li><strong>Расчёты</strong> — реализация и входящий платёж → контроль дебиторской задолженности.</li>
+<li><strong>CRM</strong> — working with the lead and communications.</li>
+<li><strong>Sales</strong> — customer order, shipment terms.</li>
+<li><strong>Inventory</strong> (if the warehouse contour is used) — shipment / goods movement.</li>
+<li><strong>Retail</strong> — POS, sessions, receipt, payment.</li>
+<li><strong>Invoicing</strong> — invoice and incoming payment → accounts receivable control.</li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=закупки-от-заказа-до-оплаты>Закупки (от заказа до оплаты)<a href=#закупки-от-заказа-до-оплаты class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=purchase-procure-to-pay>Purchase (procure-to-pay)<a href=#purchase-procure-to-pay class=hash-link aria-label="Direct link to Purchase (procure-to-pay)" title="Direct link to Purchase (procure-to-pay)">​</a></h3>
 <ol>
-<li><strong>Закупка</strong> — заказ поставщику и контроль исполнения.</li>
-<li><strong>Склад</strong> (если используется складской контур) — приемка/движения по местам хранения.</li>
-<li><strong>Расчёты</strong> — поступление и исходящий платёж → контроль кредиторской задолженности.</li>
+<li><strong>Purchase</strong> — supplier order and fulfillment control.</li>
+<li><strong>Inventory</strong> (if the warehouse contour is used) — receipt / warehouse movements.</li>
+<li><strong>Invoicing</strong> — bill and outgoing payment → accounts payable control.</li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=производство-от-плана-до-выпуска>Производство (от плана до выпуска)<a href=#производство-от-плана-до-выпуска class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=manufacturing-plan-to-produce>Manufacturing (plan-to-produce)<a href=#manufacturing-plan-to-produce class=hash-link aria-label="Direct link to Manufacturing (plan-to-produce)" title="Direct link to Manufacturing (plan-to-produce)">​</a></h3>
 <ol>
-<li><strong>Продажи</strong> — источник потребности (заказ покупателя) или внутренний план.</li>
-<li><strong>Производство</strong> — спецификация → производственный заказ → выпуск/списание.</li>
-<li><strong>Склад</strong> — материалы/готовая продукция (остатки, партии/упаковки — если включены).</li>
-<li><strong>Закупка</strong>/<strong>Расчёты</strong> — пополнение материалов и учёт затрат (если процесс ведётся сквозным контуром).</li>
+<li><strong>Sales</strong> — demand source (customer order) or internal plan.</li>
+<li><strong>Manufacturing</strong> — BOM → production order → production / consumption.</li>
+<li><strong>Inventory</strong> — raw materials / finished goods (stock, lots / packages — if enabled).</li>
+<li><strong>Purchase</strong> / <strong>Invoicing</strong> — replenishment and cost accounting (if the process is run end‑to‑end).</li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=проекты-и-трудозатраты>Проекты и трудозатраты<a href=#проекты-и-трудозатраты class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=projects-and-time-tracking>Projects and time tracking<a href=#projects-and-time-tracking class=hash-link aria-label="Direct link to Projects and time tracking" title="Direct link to Projects and time tracking">​</a></h3>
 <ol>
-<li><strong>Проекты</strong> — проект → задачи → отметки времени.</li>
-<li><strong>Кадры</strong> (если включён расчёт зарплаты по времени) — использование отметок времени в расчёте и выплате.</li>
+<li><strong>Project Management</strong> — project → tasks → time entries.</li>
+<li><strong>Human Resources</strong> (if time-based payroll is enabled) — using time entries in payroll calculation and payment.</li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=автопарк-и-расходы>Автопарк и расходы<a href=#автопарк-и-расходы class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=transport-and-expenses>Transport and expenses<a href=#transport-and-expenses class=hash-link aria-label="Direct link to Transport and expenses" title="Direct link to Transport and expenses">​</a></h3>
 <ol>
-<li><strong>Автопарк</strong> — карточки ТС/водителей/обслуживаний/договоров.</li>
-<li>Связанные расходы могут отражаться в <strong>Расчётах</strong> (поступления/платежи) и/или <strong>Закупке</strong> (заказы поставщикам) — если это включено и используется.</li>
+<li><strong>Transport</strong> — vehicles / drivers / services / contracts.</li>
+<li>Related expenses can be reflected in <strong>Invoicing</strong> (bills / payments) and/or <strong>Purchase</strong> (supplier orders) — if enabled and used.</li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id=модули>Модули<a href=#модули class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=справочники>Справочники<a href=#справочники class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h3>
-<p>Стартовая документация: <a href=/masterdata/>masterdata/masterdata.md</a></p>
-<p><strong>Назначение.</strong> Раздел для ведения базовых справочных данных, которые используются в документах и процессах других модулей.</p>
-<p><strong>Типовые сценарии:</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id=modules>Modules<a href=#modules class=hash-link aria-label="Direct link to Modules" title="Direct link to Modules">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=master-data>Master Data<a href=#master-data class=hash-link aria-label="Direct link to Master Data" title="Direct link to Master Data">​</a></h3>
+<p>Start documentation: <a href=/masterdata/>masterdata/masterdata.md</a></p>
+<p><strong>Purpose.</strong> A section for maintaining base reference data used in documents and processes of other modules.</p>
+<p><strong>Typical scenarios:</strong></p>
 <ul>
-<li>завести номенклатуру и поддерживать её в актуальном состоянии;</li>
-<li>вести контрагентов, их контактные данные и адреса;</li>
-<li>поддерживать классификацию (категории), единицы измерений;</li>
-<li>вести страны, валюты и курсы валют;</li>
-<li>регистрировать договоры с контрагентами.</li>
+<li>create items and keep them up to date;</li>
+<li>maintain partners, their contact details and addresses;</li>
+<li>maintain classification (categories), units of measure;</li>
+<li>maintain countries, currencies and exchange rates;</li>
+<li>register contracts with partners.</li>
 </ul>
-<p><strong>Ключевые объекты:</strong> контрагент, номенклатура, категория, единица измерения, подразделение, страна, валюта, курс валют, договор.</p>
-<p><strong>Кому полезно:</strong> пользователям, отвечающим за поддержку справочной информации (администраторы, бухгалтерия/финансы, менеджеры по закупкам/продажам — в зависимости от процесса).</p>
-<p><strong>Дальше читать:</strong></p>
+<p><strong>Key objects:</strong> partner, item, category, unit of measure, department, country, currency, exchange rate, contract.</p>
+<p><strong>Who it’s useful for:</strong> users responsible for maintaining reference data (administrators, accounting/finance, purchase/sales managers — depending on the process).</p>
+<p><strong>Read next:</strong></p>
 <ul>
-<li><a href=/masterdata/>Справочники</a></li>
+<li><a href=/masterdata/>Master Data</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=склад>Склад<a href=#склад class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h3>
-<p>Стартовая документация: <a href=/inventory/>inventory/inventory.md</a></p>
-<p><strong>Назначение.</strong> Складской контур: места хранения, поступления/отгрузки, перемещения, списания, инвентаризации, сборка, партии и упаковки (если включены), отчеты по остаткам и движениям.</p>
-<p><strong>Типовые сценарии:</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=inventory>Inventory<a href=#inventory class=hash-link aria-label="Direct link to Inventory" title="Direct link to Inventory">​</a></h3>
+<p>Start documentation: <a href=/inventory/>inventory/inventory.md</a></p>
+<p><strong>Purpose.</strong> Warehouse contour: locations, receipts / shipments, transfers, scrap, adjustments, picking, lots and packages (if enabled), stock and movement reports.</p>
+<p><strong>Typical scenarios:</strong></p>
 <ul>
-<li>оформить поступление и довести документ до завершения;</li>
-<li>сформировать отгрузку по заказу/реализации и закрыть движение;</li>
-<li>выполнить перемещение между складами/зонами/ячейками;</li>
-<li>провести инвентаризацию и зафиксировать расхождения;</li>
-<li>организовать сборку, если используется.</li>
+<li>create a receipt and complete the document;</li>
+<li>create a shipment for an order / invoice and close the movement;</li>
+<li>transfer between locations (warehouses / zones / bins);</li>
+<li>run an adjustment and record variances;</li>
+<li>organize picking, if used.</li>
 </ul>
-<p><strong>Ключевые объекты/документы:</strong> место хранения, поступление, отгрузка, перемещение, списание, инвентаризация, партия, упаковка.</p>
-<p><strong>Кому полезно:</strong> кладовщикам, логистике, руководителям складов; в связке — продажам/закупкам.</p>
-<p><strong>Интеграции:</strong> часто является «физической» частью процессов <a href=#%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B8>Продажи</a>, <a href=#%D0%B7%D0%B0%D0%BA%D1%83%D0%BF%D0%BA%D0%B0>Закупка</a>, <a href=#%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE>Производство</a> и может быть связан с документами <a href=#%D1%80%D0%B0%D1%81%D1%87%D1%91%D1%82%D1%8B>Расчёты</a>.</p>
-<p><strong>Дальше читать:</strong></p>
+<p><strong>Key objects/documents:</strong> location, receipt, shipment, transfer, scrap, adjustment, lot, package.</p>
+<p><strong>Who it’s useful for:</strong> warehouse staff, logistics, warehouse managers; and in combination — sales / purchase.</p>
+<p><strong>Integrations:</strong> often the “physical” part of <a href=#sales>Sales</a>, <a href=#purchase>Purchase</a>, <a href=#manufacturing>Manufacturing</a> processes and can be linked to <a href=#invoicing>Invoicing</a> documents.</p>
+<p><strong>Read next:</strong></p>
 <ul>
-<li><a href=/inventory/receipts/>Поступления</a></li>
-<li><a href=/inventory/shipments/>Отгрузки</a></li>
-<li><a href=/inventory/transfers/>Перемещения</a></li>
-<li><a href=/inventory/adjustments/>Инвентаризация</a></li>
-<li><a href=/inventory/picking/>Задания на сборку</a></li>
-<li><a href=/inventory/product-sku/>Складские единицы учета</a></li>
-<li><a href=/inventory/lots-and-packages/>Партии и упаковки</a></li>
+<li><a href=/inventory/receipts/>Receipts</a></li>
+<li><a href=/inventory/shipments/>Shipments</a></li>
+<li><a href=/inventory/transfers/>Transfers</a></li>
+<li><a href=/inventory/adjustments/>Adjustments</a></li>
+<li><a href=/inventory/picking/>Picking tasks</a></li>
+<li><a href=/inventory/product-sku/>Inventory SKUs</a></li>
+<li><a href=/inventory/lots-and-packages/>Lots and packages</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=расчёты>Расчёты<a href=#расчёты class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h3>
-<p>Стартовая документация: <a href=/invoicing/>invoicing/invoicing.md</a></p>
-<p><strong>Назначение.</strong> Финансовый контур взаиморасчетов: поступления и реализации, платежи (входящие/исходящие), задолженность, календарь платежей, налоги, печать и отчётность.</p>
-<p><strong>Типовые сценарии:</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=invoicing>Invoicing<a href=#invoicing class=hash-link aria-label="Direct link to Invoicing" title="Direct link to Invoicing">​</a></h3>
+<p>Start documentation: <a href=/invoicing/>invoicing/invoicing.md</a></p>
+<p><strong>Purpose.</strong> Financial settlements contour: bills and invoices, payments (incoming / outgoing), debt, payment calendar, taxes, printing and reporting.</p>
+<p><strong>Typical scenarios:</strong></p>
 <ul>
-<li>оформить реализацию и зарегистрировать оплату (входящий платёж) с распределением;</li>
-<li>оформить поступление от поставщика и оплатить (исходящий платёж);</li>
-<li>контролировать дебиторскую/кредиторскую задолженность по контрагентам, договорам и документам;</li>
-<li>управлять календарем платежей (если используется).</li>
+<li>create an invoice and register an incoming payment with allocation;</li>
+<li>create a bill from a supplier and pay it (outgoing payment);</li>
+<li>control receivables / payables by partners, contracts and documents;</li>
+<li>manage the payment calendar (if used).</li>
 </ul>
-<p><strong>Ключевые объекты/документы:</strong> реализация, поступление, входящий платёж, исходящий платёж, задолженность.</p>
-<p><strong>Кому полезно:</strong> менеджерам (контроль оплат), бухгалтерии/финансам (регистрация и распределение платежей, отчетность).</p>
-<p><strong>Интеграции:</strong></p>
+<p><strong>Key objects/documents:</strong> invoice, bill, incoming payment, outgoing payment, debt.</p>
+<p><strong>Who it’s useful for:</strong> managers (payment control), accounting / finance (payment registration and allocation, reporting).</p>
+<p><strong>Integrations:</strong></p>
 <ul>
-<li>с <a href=#%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B8>Продажами</a> — реализации и оплаты от покупателей;</li>
-<li>с <a href=#%D0%B7%D0%B0%D0%BA%D1%83%D0%BF%D0%BA%D0%B0>Закупкой</a> — поступления и оплаты поставщикам;</li>
-<li>со <a href=#%D1%81%D0%BA%D0%BB%D0%B0%D0%B4>Складом</a> — реализация может создавать отгрузку (если включено).</li>
+<li>with <a href=#sales>Sales</a> — invoices and customer payments;</li>
+<li>with <a href=#purchase>Purchase</a> — bills and supplier payments;</li>
+<li>with <a href=#inventory>Inventory</a> — an invoice can create a shipment (if enabled).</li>
 </ul>
-<p><strong>Дальше читать:</strong></p>
+<p><strong>Read next:</strong></p>
 <ul>
-<li><a href=/invoicing/invoices/>Реализации</a></li>
-<li><a href=/invoicing/bills/>Поступления</a></li>
-<li><a href=/invoicing/payments/>Платежи</a></li>
-<li><a href=/invoicing/incoming-payments/>Входящие платежи</a></li>
-<li><a href=/invoicing/outgoing-payments/>Исходящие платежи</a></li>
-<li><a href=/invoicing/debt-and-calendar/>Задолженность и календарь платежей</a></li>
+<li><a href=/invoicing/invoices/>Invoices</a></li>
+<li><a href=/invoicing/bills/>Bills</a></li>
+<li><a href=/invoicing/payments/>Payments</a></li>
+<li><a href=/invoicing/incoming-payments/>Incoming payments</a></li>
+<li><a href=/invoicing/outgoing-payments/>Outgoing payments</a></li>
+<li><a href=/invoicing/debt-and-calendar/>Debt and payment calendar</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=закупка>Закупка<a href=#закупка class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h3>
-<p>Стартовая документация: <a href=/purchase/>purchase/purchase.md</a></p>
-<p><strong>Назначение.</strong> Закупочный контур: заказы поставщикам, прайс‑листы поставщиков, приемки/поступления и контроль исполнения (что заказано, что уже принято, что осталось).</p>
-<p><strong>Типовые сценарии:</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=purchase>Purchase<a href=#purchase class=hash-link aria-label="Direct link to Purchase" title="Direct link to Purchase">​</a></h3>
+<p>Start documentation: <a href=/purchase/>purchase/purchase.md</a></p>
+<p><strong>Purpose.</strong> Purchase contour: supplier orders, supplier price lists, receipts / bills, and fulfillment control (what was ordered, what is received, what remains).</p>
+<p><strong>Typical scenarios:</strong></p>
 <ul>
-<li>оформить заказ поставщику → подтвердить → принять товары (если используется складской контур) → оформить поступление → оплатить;</li>
-<li>использовать прайс-листы как источник цен и условий;</li>
-<li>анализировать исполнение и сроки по заказам.</li>
+<li>create a supplier order → confirm / send → receive goods (if inventory is used) → create a bill → pay;</li>
+<li>use price lists as a source of prices and terms;</li>
+<li>analyze fulfillment and lead times.</li>
 </ul>
-<p><strong>Ключевые объекты/документы:</strong> заказ поставщику, приемка, поступление, прайс‑лист.</p>
-<p><strong>Кому полезно:</strong> менеджерам по закупкам, складу/логистике, финансам.</p>
-<p><strong>Интеграции:</strong></p>
+<p><strong>Key objects/documents:</strong> supplier order, receipt, bill, price list.</p>
+<p><strong>Who it’s useful for:</strong> purchase managers, warehouse / logistics, finance.</p>
+<p><strong>Integrations:</strong></p>
 <ul>
-<li>со <a href=#%D1%81%D0%BA%D0%BB%D0%B0%D0%B4>Складом</a> — приемки/движения;</li>
-<li>с <a href=#%D1%80%D0%B0%D1%81%D1%87%D1%91%D1%82%D1%8B>Расчётами</a> — поступления и исходящие платежи.</li>
+<li>with <a href=#inventory>Inventory</a> — receipts / movements;</li>
+<li>with <a href=#invoicing>Invoicing</a> — bills and outgoing payments.</li>
 </ul>
-<p><strong>Дальше читать:</strong></p>
+<p><strong>Read next:</strong></p>
 <ul>
-<li><a href=/purchase/orders/>Заказы поставщикам</a></li>
-<li><a href=/purchase/receipts/>Приемки по заказам поставщикам</a></li>
-<li><a href=/purchase/bills/>Поступления по заказам поставщикам</a></li>
-<li><a href=/purchase/pricelists/>Прайс-листы поставщиков</a></li>
-<li><a href=/purchase/reports/>Отчёты по закупкам</a></li>
+<li><a href=/purchase/orders/>Supplier orders</a></li>
+<li><a href=/purchase/receipts/>Receipts for supplier orders</a></li>
+<li><a href=/purchase/bills/>Bills for supplier orders</a></li>
+<li><a href=/purchase/pricelists/>Supplier price lists</a></li>
+<li><a href=/purchase/reports/>Purchase reports</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=производство>Производство<a href=#производство class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h3>
-<p>Стартовая документация: <a href=/manufacturing/>manufacturing/manufacturing.md</a></p>
-<p><strong>Назначение.</strong> Производственный контур: спецификации (состав изделий), планирование и выполнение производственных заказов, резервирование материалов, выпуск продукции и списание материалов, брак/отходы, печать и отчеты.</p>
-<p><strong>Типовые сценарии:</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=manufacturing>Manufacturing<a href=#manufacturing class=hash-link aria-label="Direct link to Manufacturing" title="Direct link to Manufacturing">​</a></h3>
+<p>Start documentation: <a href=/manufacturing/>manufacturing/manufacturing.md</a></p>
+<p><strong>Purpose.</strong> Manufacturing contour: bills of materials, planning and execution of production orders, material reservation, production and consumption, scrap / waste, printing and reports.</p>
+<p><strong>Typical scenarios:</strong></p>
 <ul>
-<li>создать/проверить спецификацию изделия → создать производственный заказ → зарезервировать материалы → запустить → фиксировать выпуск/списание → завершить;</li>
-<li>создавать производственные заказы на основании заказов покупателя (если включено);</li>
-<li>контролировать себестоимость и партии/лоты (если используется).</li>
+<li>create / verify a product bill of materials → create a production order → reserve materials → start → record production / consumption → complete;</li>
+<li>create production orders based on customer orders (if enabled);</li>
+<li>control costing and lots (if used).</li>
 </ul>
-<p><strong>Ключевые объекты/документы:</strong> спецификация, производственный заказ, резервирование материалов, выпуск и списание.</p>
-<p><strong>Кому полезно:</strong> производственным диспетчерам, мастерам, планированию, складу (материалы/готовая продукция).</p>
-<p><strong>Интеграции:</strong> тесно связан со <a href=#%D1%81%D0%BA%D0%BB%D0%B0%D0%B4>Складом</a> (материалы/выпуск) и может быть связан с <a href=#%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B8>Продажами</a> (потребность) и <a href=#%D0%B7%D0%B0%D0%BA%D1%83%D0%BF%D0%BA%D0%B0>Закупками</a> (пополнение материалов).</p>
-<p><strong>Дальше читать:</strong></p>
+<p><strong>Key objects/documents:</strong> bill of materials, production order, material reservation, production and consumption.</p>
+<p><strong>Who it’s useful for:</strong> production dispatchers, foremen, planners, warehouse (materials / finished goods).</p>
+<p><strong>Integrations:</strong> tightly connected to <a href=#inventory>Inventory</a> (materials / output) and can be linked to <a href=#sales>Sales</a> (demand) and <a href=#purchase>Purchase</a> (material replenishment).</p>
+<p><strong>Read next:</strong></p>
 <ul>
-<li><a href=/manufacturing/bom/>Спецификации (состав изделий)</a></li>
-<li><a href=/manufacturing/orders/>Производственные заказы: список и карточка</a></li>
-<li><a href=/manufacturing/workflow/>Процесс и статусы производственного заказа</a></li>
-<li><a href=/manufacturing/production-and-consumption/>Выпуск продукции и списание материалов</a></li>
-<li><a href=/manufacturing/costing/>Себестоимость: как рассчитывается</a></li>
+<li><a href=/manufacturing/bom/>Bills of materials</a></li>
+<li><a href=/manufacturing/orders/>Production orders: list and card</a></li>
+<li><a href=/manufacturing/workflow/>Production order workflow and statuses</a></li>
+<li><a href=/manufacturing/production-and-consumption/>Production and consumption</a></li>
+<li><a href=/manufacturing/costing/>Costing: how it is calculated</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=продажи>Продажи<a href=#продажи class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h3>
-<p>Стартовая документация: <a href=/sales/>sales/sales.md</a></p>
-<p><strong>Назначение.</strong> Контур управления продажами: заказы покупателя, процесс/статусы, отгрузки и реализации по заказам, прайс‑листы/типы цен, скидки и отчетность.</p>
-<p><strong>Типовые сценарии:</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=sales>Sales<a href=#sales class=hash-link aria-label="Direct link to Sales" title="Direct link to Sales">​</a></h3>
+<p>Start documentation: <a href=/sales/>sales/sales.md</a></p>
+<p><strong>Purpose.</strong> Sales management contour: customer orders, workflow / statuses, shipments and invoices for orders, price lists / price types, discounts and reporting.</p>
+<p><strong>Typical scenarios:</strong></p>
 <ul>
-<li>оформить заказ покупателя → подтвердить → сформировать отгрузку и/или реализацию (в зависимости от процесса);</li>
-<li>управлять ценами через прайс‑листы и типы цен;</li>
-<li>рассчитывать и контролировать скидки;</li>
-<li>анализировать продажи и исполнение заказов.</li>
+<li>create a customer order → confirm → create a shipment and/or invoice (depending on the process);</li>
+<li>manage pricing via price lists and price types;</li>
+<li>calculate and control discounts;</li>
+<li>analyze sales and order fulfillment.</li>
 </ul>
-<p><strong>Ключевые объекты/документы:</strong> заказ покупателя, строка заказа, отгрузка, реализация.</p>
-<p><strong>Кому полезно:</strong> менеджерам по продажам, руководителям продаж, складу (в части отгрузок).</p>
-<p><strong>Интеграции:</strong></p>
+<p><strong>Key objects/documents:</strong> customer order, order line, shipment, invoice.</p>
+<p><strong>Who it’s useful for:</strong> sales managers, sales leads, warehouse (for shipments).</p>
+<p><strong>Integrations:</strong></p>
 <ul>
-<li>со <a href=#%D1%81%D0%BA%D0%BB%D0%B0%D0%B4>Складом</a> — отгрузка и резервирование/наличие (если включено);</li>
-<li>с <a href=#%D1%80%D0%B0%D1%81%D1%87%D1%91%D1%82%D1%8B>Расчётами</a> — реализации и контроль оплат.</li>
+<li>with <a href=#inventory>Inventory</a> — shipment and reservation / availability (if enabled);</li>
+<li>with <a href=#invoicing>Invoicing</a> — invoices and payment control.</li>
 </ul>
-<p><strong>Дальше читать:</strong></p>
+<p><strong>Read next:</strong></p>
 <ul>
-<li><a href=/sales/orders/>Заказы покупателя</a></li>
-<li><a href=/sales/workflow-and-statuses/>Процесс и статусы заказа</a></li>
-<li><a href=/sales/shipments/>Отгрузки по заказам</a></li>
-<li><a href=/sales/invoices/>Реализации по заказам</a></li>
-<li><a href=/sales/pricelists/>Прайс-листы и типы цен</a></li>
-<li><a href=/sales/discounts/>Скидки</a></li>
+<li><a href=/sales/orders/>Customer orders</a></li>
+<li><a href=/sales/workflow-and-statuses/>Order workflow and statuses</a></li>
+<li><a href=/sales/shipments/>Shipments for orders</a></li>
+<li><a href=/sales/invoices/>Invoices for orders</a></li>
+<li><a href=/sales/pricelists/>Price lists and price types</a></li>
+<li><a href=/sales/discounts/>Discounts</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=розница>Розница<a href=#розница class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h3>
-<p>Стартовая документация: <a href=/retail/>retail/retail.md</a></p>
-<p><strong>Назначение.</strong> Розничные продажи через кассу: управление сменами, оформление продаж и возвратов, применение скидок и дисконтных карт, прием оплаты.</p>
-<p><strong>Типовые сценарии:</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=retail>Retail<a href=#retail class=hash-link aria-label="Direct link to Retail" title="Direct link to Retail">​</a></h3>
+<p>Start documentation: <a href=/retail/>retail/retail.md</a></p>
+<p><strong>Purpose.</strong> Retail sales via POS: session management, sales and returns, discounts and discount cards, payment acceptance.</p>
+<p><strong>Typical scenarios:</strong></p>
 <ul>
-<li>настроить кассу и способы оплаты → открыть смену → оформить продажу → принять оплату → закрыть смену;</li>
-<li>оформить возврат (по чеку или в «свободном» режиме — зависит от конфигурации);</li>
-<li>использовать дисконтные карты и скидки;</li>
-<li>работать с маркированными товарами (если включено).</li>
+<li>configure POS and payment methods → open a session → create a sale in POS → accept payment → close the session;</li>
+<li>create a return (by receipt or in “free” mode — depends on configuration);</li>
+<li>use discount cards and discounts;</li>
+<li>work with marked goods (if enabled).</li>
 </ul>
-<p><strong>Ключевые объекты/документы:</strong> касса, смена, чек, способ оплаты, дисконтная карта.</p>
-<p><strong>Кому полезно:</strong> кассирам, старшим кассирам/администраторам торговой точки, ответственным за настройки.</p>
-<p><strong>Интеграции:</strong> в зависимости от настроек может передавать результаты в <a href=#%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B8>Продажи</a> и/или <a href=#%D1%80%D0%B0%D1%81%D1%87%D1%91%D1%82%D1%8B>Расчёты</a>.</p>
-<p><strong>Дальше читать:</strong></p>
+<p><strong>Key objects/documents:</strong> POS, session, receipt, payment method, discount card.</p>
+<p><strong>Who it’s useful for:</strong> cashiers, senior cashiers / store administrators, configuration owners.</p>
+<p><strong>Integrations:</strong> depending on settings, it can send results to <a href=#sales>Sales</a> and/or <a href=#invoicing>Invoicing</a>.</p>
+<p><strong>Read next:</strong></p>
 <ul>
-<li><a href=/retail/pos/>Касса</a></li>
-<li><a href=/retail/sessions/>Смены</a></li>
-<li><a href=/retail/payments/>Оплата в рознице</a></li>
-<li><a href=/retail/returns/>Возвраты</a></li>
-<li><a href=/retail/discount-cards/>Дисконтные карты</a></li>
+<li><a href=/retail/pos/>POS</a></li>
+<li><a href=/retail/sessions/>Sessions</a></li>
+<li><a href=/retail/payments/>Retail payments</a></li>
+<li><a href=/retail/returns/>Returns</a></li>
+<li><a href=/retail/discount-cards/>Discount cards</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=проекты>Проекты<a href=#проекты class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h3>
-<p>Стартовая документация: <a href=/projectManagement/>projectManagement/projectManagement.md</a></p>
-<p><strong>Назначение.</strong> Проектный контур: проекты и задачи, команда и роли, отметки времени и табели, представления для контроля (например, доски/Гант) и отчетность.</p>
-<p><strong>Типовые сценарии:</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=project-management>Project Management<a href=#project-management class=hash-link aria-label="Direct link to Project Management" title="Direct link to Project Management">​</a></h3>
+<p>Start documentation: <a href=/projectManagement/>projectManagement/projectManagement.md</a></p>
+<p><strong>Purpose.</strong> Project contour: projects and tasks, team and roles, time entries and timesheets, control views (e.g., boards / Gantt) and reporting.</p>
+<p><strong>Typical scenarios:</strong></p>
 <ul>
-<li>создать проект → сформировать план задач → назначить исполнителей и сроки;</li>
-<li>вести выполнение через статусы задач и комментарии;</li>
-<li>фиксировать трудозатраты отметками времени;</li>
-<li>собирать табели и отчеты по факту выполнения.</li>
+<li>create a project → build a task plan → assign assignees and due dates;</li>
+<li>track progress via task statuses and comments;</li>
+<li>record effort using time entries;</li>
+<li>collect timesheets and actuals reports.</li>
 </ul>
-<p><strong>Ключевые объекты:</strong> проект, задача, назначение (роль/участие), отметка времени, статус/последовательность действий.</p>
-<p><strong>Кому полезно:</strong> менеджерам проектов, исполнителям, руководителям команд.</p>
-<p><strong>Интеграции:</strong> при включенной настройке оплаты по времени используется в связке с <a href=#%D0%BA%D0%B0%D0%B4%D1%80%D1%8B>Кадрами</a>.</p>
-<p><strong>Дальше читать:</strong></p>
+<p><strong>Key objects:</strong> project, task, assignment (role / participation), time entry, status / workflow.</p>
+<p><strong>Who it’s useful for:</strong> project managers, assignees, team leads.</p>
+<p><strong>Integrations:</strong> if time-based pay is enabled, it is used together with <a href=#human-resources>Human Resources</a>.</p>
+<p><strong>Read next:</strong></p>
 <ul>
-<li><a href=/projectManagement/projects/>Проекты</a></li>
-<li><a href=/projectManagement/tasks/>Задачи</a></li>
-<li><a href=/projectManagement/time-entries/>Отметки времени</a></li>
-<li><a href=/projectManagement/timesheets/>Табель</a></li>
-<li><a href=/projectManagement/team-and-roles/>Команда и роли на проекте</a></li>
+<li><a href=/projectManagement/projects/>Projects</a></li>
+<li><a href=/projectManagement/tasks/>Tasks</a></li>
+<li><a href=/projectManagement/time-entries/>Time entries</a></li>
+<li><a href=/projectManagement/timesheets/>Timesheet</a></li>
+<li><a href=/projectManagement/team-and-roles/>Project team and roles</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=кадры>Кадры<a href=#кадры class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h3>
-<p>Стартовая документация: <a href=/humanResources/>humanResources/humanResources.md</a></p>
-<p><strong>Назначение.</strong> Модуль кадрового контура: подбор персонала, учет рабочего времени (вход/выход), расчет и выплата зарплаты.</p>
-<p><strong>Типовые сценарии:</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=human-resources>Human Resources<a href=#human-resources class=hash-link aria-label="Direct link to Human Resources" title="Direct link to Human Resources">​</a></h3>
+<p>Start documentation: <a href=/humanResources/>humanResources/humanResources.md</a></p>
+<p><strong>Purpose.</strong> HR module: recruitment, attendance tracking (check in / check out), payroll calculation and payment.</p>
+<p><strong>Typical scenarios:</strong></p>
 <ul>
-<li>отклик кандидата → анкета → собеседование → решение (нанять/отказать);</li>
-<li>фиксировать рабочее время (мобильная регистрация/киоск — если используется);</li>
-<li>сформировать зарплатную ведомость → получить расчётные листы → зарегистрировать выплату (если ведется в системе).</li>
+<li>candidate application → questionnaire → interview → decision (hire / reject);</li>
+<li>track working time (mobile check‑in / kiosk — if used);</li>
+<li>create a payroll batch → get payslips → register payment (if maintained in the system).</li>
 </ul>
-<p><strong>Ключевые объекты/документы:</strong> анкета кандидата, собеседование, регистрация времени, зарплатная ведомость, расчётный лист.</p>
-<p><strong>Кому полезно:</strong> рекрутерам, кадровым специалистам, расчетчикам/бухгалтерии, руководителям подразделений.</p>
-<p><strong>Интеграции:</strong> при включенной логике оплаты по трудозатратам может использовать отметки времени из модуля <a href=#%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B>Project Management</a>.</p>
-<p><strong>Дальше читать:</strong></p>
+<p><strong>Key objects/documents:</strong> candidate application, interview, attendance, payroll batch, payslip.</p>
+<p><strong>Who it’s useful for:</strong> recruiters, HR specialists, payroll accountants / finance, department managers.</p>
+<p><strong>Integrations:</strong> if time-based payroll logic is enabled, it may use time entries from <a href=#project-management>Project Management</a>.</p>
+<p><strong>Read next:</strong></p>
 <ul>
-<li><a href=/humanResources/recruitment/>Подбор персонала</a></li>
-<li><a href=/humanResources/attendance/>Регистрация времени</a></li>
-<li><a href=/humanResources/payroll/>Расчёт и выплата зарплаты</a></li>
-<li><a href=/humanResources/payslip/>Расчётный лист</a></li>
-<li><a href=/humanResources/net-wage/>Как считается итог «К выдаче»</a></li>
+<li><a href=/humanResources/recruitment/>Recruitment</a></li>
+<li><a href=/humanResources/attendance/>Attendance</a></li>
+<li><a href=/humanResources/payroll/>Payroll: calculation and payment</a></li>
+<li><a href=/humanResources/payslip/>Payslip</a></li>
+<li><a href=/humanResources/net-wage/>How the “Net to pay” total is calculated</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=crm>CRM<a href=#crm class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h3>
-<p>Стартовая документация: <a href=/crm/>crm/crm.md</a></p>
-<p><strong>Назначение.</strong> Модуль для работы с лидами (воронка): от первого обращения до передачи в продажу. Фокус — удобное ведение карточки, управление статусами и фиксация истории взаимодействий.</p>
-<p><strong>Типовые сценарии:</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=crm>CRM<a href=#crm class=hash-link aria-label="Direct link to CRM" title="Direct link to CRM">​</a></h3>
+<p>Start documentation: <a href=/crm/>crm/crm.md</a></p>
+<p><strong>Purpose.</strong> A module for working with leads (pipeline): from the first contact to handing over to sales. The focus is a convenient lead card, status management, and interaction history.</p>
+<p><strong>Typical scenarios:</strong></p>
 <ul>
-<li>обработать входящий звонок/письмо → создать лид или прикрепить коммуникацию к существующему;</li>
-<li>вести лид по этапам (статусы) на канбан‑доске;</li>
-<li>зафиксировать договорённости и «следующий шаг»;</li>
-<li>создать связанные документы (например, заказ/реализацию), если это настроено.</li>
+<li>handle an incoming call / email → create a lead or attach a communication to an existing one;</li>
+<li>move the lead through stages (statuses) on a kanban board;</li>
+<li>record agreements and the “next step”;</li>
+<li>create related documents (e.g., an order / an invoice), if configured.</li>
 </ul>
-<p><strong>Ключевые объекты:</strong> лид, тип лида, статус лида, приоритет, ярлыки, коммуникации.</p>
-<p><strong>Кому полезно:</strong> менеджерам по продажам и руководителям (контроль воронки и качества ведения).</p>
-<p><strong>Дальше читать:</strong></p>
+<p><strong>Key objects:</strong> lead, lead type, lead status, lead priority, lead tags, communications.</p>
+<p><strong>Who it’s useful for:</strong> sales managers and sales leads (pipeline control and lead handling quality).</p>
+<p><strong>Read next:</strong></p>
 <ul>
-<li><a href=/crm/leads/>Лиды: список и карточка</a></li>
-<li><a href=/crm/kanban/>Доска по лидам (канбан)</a></li>
-<li><a href=/crm/communications/>Коммуникации: звонки и письма</a></li>
-<li><a href=/crm/sales-and-documents/>Заказы и реализации из лида</a></li>
-<li><a href=/crm/reports/>Отчет по лидам</a></li>
+<li><a href=/crm/leads/>Leads: list and card</a></li>
+<li><a href=/crm/kanban/>Lead board (kanban)</a></li>
+<li><a href=/crm/communications/>Communications: calls and emails</a></li>
+<li><a href=/crm/sales-and-documents/>Orders and invoices from a lead</a></li>
+<li><a href=/crm/reports/>Lead report</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=автопарк>Автопарк<a href=#автопарк class=hash-link aria-label="Прямая ссылка на этот заголовок" title="Прямая ссылка на этот заголовок">​</a></h3>
-<p>Стартовая документация: <a href=/transport/>transport/transport.md</a></p>
-<p><strong>Назначение.</strong> Учет транспорта: транспортные средства, назначения водителей, обслуживания (работы/расходы), договоры на ТС и настройка справочников.</p>
-<p><strong>Типовые сценарии:</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=transport>Transport<a href=#transport class=hash-link aria-label="Direct link to Transport" title="Direct link to Transport">​</a></h3>
+<p>Start documentation: <a href=/transport/>transport/transport.md</a></p>
+<p><strong>Purpose.</strong> Transport accounting: vehicles, driver assignments, services (work / expenses), vehicle contracts, and reference data settings.</p>
+<p><strong>Typical scenarios:</strong></p>
 <ul>
-<li>завести карточку транспортного средства, заполнить справочники (модель, тип топлива и т. п.);</li>
-<li>назначать водителей на ТС по периодам;</li>
-<li>фиксировать обслуживания с датой, типом, пробегом и стоимостью;</li>
-<li>вести договоры (аренда/лизинг/страхование и т. п.) и контролировать сроки.</li>
+<li>create a vehicle card, fill reference data (model, fuel type, etc.);</li>
+<li>assign drivers to vehicles by periods;</li>
+<li>record services with date, type, mileage and cost;</li>
+<li>manage contracts (rent / leasing / insurance, etc.) and control due dates.</li>
 </ul>
-<p><strong>Ключевые объекты:</strong> транспортное средство, водитель, обслуживание ТС, договор на ТС, ярлыки и файлы.</p>
-<p><strong>Кому полезно:</strong> специалистам по транспорту, бухгалтерии (контроль расходов), администраторам (настройка справочников).</p>
-<p><strong>Дальше читать:</strong></p>
+<p><strong>Key objects:</strong> vehicle, driver, vehicle service, vehicle contract, tags and files.</p>
+<p><strong>Who it’s useful for:</strong> transport specialists, accounting (expense control), administrators (reference data settings).</p>
+<p><strong>Read next:</strong></p>
 <ul>
-<li><a href=/transport/vehicles/>Транспортные средства</a></li>
-<li><a href=/transport/drivers/>Водители</a></li>
-<li><a href=/transport/service/>Обслуживания ТС</a></li>
-<li><a href=/transport/contracts/>Договоры на ТС</a></li>
-<li><a href=/transport/settings/>Настройка</a></li>
-</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class=col><a href=https://github.com/lsfusion-solutions/mycompany-docs/edit/main/i18n/ru/docusaurus-plugin-content-docs/current/overview.md target=_blank rel="noopener noreferrer" class=theme-edit-this-page><svg fill=currentColor height=20 width=20 viewBox="0 0 40 40" class=iconEdit_Z9Sw aria-hidden=true><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"/></g></svg>Отредактировать эту страницу</a></div><div class="col lastUpdated_JAkA"><span class=theme-last-updated>Последнее обновление<!-- --> <b><time datetime=2026-01-05T14:17:58.000Z itemprop=dateModified>5 янв. 2026 г.</time></b></span></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Навигация по странице документации"><a class="pagination-nav__link pagination-nav__link--next" href=/administration/><div class=pagination-nav__sublabel>Следующая страница</div><div class=pagination-nav__label>Администрирование — установка и сопровождение</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href=#быстрая-навигация class="table-of-contents__link toc-highlight">Быстрая навигация</a><li><a href=#карта-модулей-и-сквозные-процессы class="table-of-contents__link toc-highlight">Карта модулей и сквозные процессы</a><ul><li><a href=#продажи-от-лида-до-оплаты class="table-of-contents__link toc-highlight">Продажи (от лида до оплаты)</a><li><a href=#закупки-от-заказа-до-оплаты class="table-of-contents__link toc-highlight">Закупки (от заказа до оплаты)</a><li><a href=#производство-от-плана-до-выпуска class="table-of-contents__link toc-highlight">Производство (от плана до выпуска)</a><li><a href=#проекты-и-трудозатраты class="table-of-contents__link toc-highlight">Проекты и трудозатраты</a><li><a href=#автопарк-и-расходы class="table-of-contents__link toc-highlight">Автопарк и расходы</a></ul><li><a href=#модули class="table-of-contents__link toc-highlight">Модули</a><ul><li><a href=#справочники class="table-of-contents__link toc-highlight">Справочники</a><li><a href=#склад class="table-of-contents__link toc-highlight">Склад</a><li><a href=#расчёты class="table-of-contents__link toc-highlight">Расчёты</a><li><a href=#закупка class="table-of-contents__link toc-highlight">Закупка</a><li><a href=#производство class="table-of-contents__link toc-highlight">Производство</a><li><a href=#продажи class="table-of-contents__link toc-highlight">Продажи</a><li><a href=#розница class="table-of-contents__link toc-highlight">Розница</a><li><a href=#проекты class="table-of-contents__link toc-highlight">Проекты</a><li><a href=#кадры class="table-of-contents__link toc-highlight">Кадры</a><li><a href=#crm class="table-of-contents__link toc-highlight">CRM</a><li><a href=#автопарк class="table-of-contents__link toc-highlight">Автопарк</a></ul></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class=footer__title>MyCompany</div><ul class="footer__items clean-list"><li class=footer__item><a class=footer__link-item href=/>Документация</a><li class=footer__item><a href=https://mycompany.lsfusion.org/ target=_blank rel="noopener noreferrer" class=footer__link-item>Веб-сайт<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a></ul></div><div class="col footer__col"><div class=footer__title>Сообщество</div><ul class="footer__items clean-list"><li class=footer__item><a href=https://t.me/lsfusion_official target=_blank rel="noopener noreferrer" class=footer__link-item>Telegram<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a><li class=footer__item><a href=https://join.slack.com/t/lsfusion/shared_invite/zt-1itj7vlmf-9aBIP__nj9iMJglDaecqXg target=_blank rel="noopener noreferrer" class=footer__link-item>Slack<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a><li class=footer__item><a href=https://ru.stackoverflow.com/questions/tagged/lsfusion target=_blank rel="noopener noreferrer" class=footer__link-item>Stack Overflow<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a></ul></div><div class="col footer__col"><div class=footer__title>Другое</div><ul class="footer__items clean-list"><li class=footer__item><a href=https://habr.com/ru/company/lsfusion/blog/ target=_blank rel="noopener noreferrer" class=footer__link-item>Хабр<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a><li class=footer__item><a href=https://github.com/lsfusion-solutions/mycompany target=_blank rel="noopener noreferrer" class=footer__link-item>GitHub<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a></ul></div></div><div class="footer__bottom text--center"><div class=footer__copyright>Copyright © 2026 lsFusion Foundation. Built with Docusaurus.</div></div></div></footer></div>
+<li><a href=/transport/vehicles/>Vehicles</a></li>
+<li><a href=/transport/drivers/>Drivers</a></li>
+<li><a href=/transport/service/>Vehicle services</a></li>
+<li><a href=/transport/contracts/>Vehicle contracts</a></li>
+<li><a href=/transport/settings/>Settings</a></li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class=col><a href=https://github.com/lsfusion-solutions/mycompany-docs/edit/main/docs/overview.md target=_blank rel="noopener noreferrer" class=theme-edit-this-page><svg fill=currentColor height=20 width=20 viewBox="0 0 40 40" class=iconEdit_Z9Sw aria-hidden=true><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"/></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"><span class=theme-last-updated>Last updated<!-- --> on <b><time datetime=2026-01-05T14:17:58.000Z itemprop=dateModified>Jan 5, 2026</time></b></span></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--next" href=/administration/><div class=pagination-nav__sublabel>Next</div><div class=pagination-nav__label>Administration — installation and maintenance</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href=#quick-navigation class="table-of-contents__link toc-highlight">Quick navigation</a><li><a href=#module-map-and-end-to-end-processes class="table-of-contents__link toc-highlight">Module map and end-to-end processes</a><ul><li><a href=#sales-lead-to-cash class="table-of-contents__link toc-highlight">Sales (lead-to-cash)</a><li><a href=#purchase-procure-to-pay class="table-of-contents__link toc-highlight">Purchase (procure-to-pay)</a><li><a href=#manufacturing-plan-to-produce class="table-of-contents__link toc-highlight">Manufacturing (plan-to-produce)</a><li><a href=#projects-and-time-tracking class="table-of-contents__link toc-highlight">Projects and time tracking</a><li><a href=#transport-and-expenses class="table-of-contents__link toc-highlight">Transport and expenses</a></ul><li><a href=#modules class="table-of-contents__link toc-highlight">Modules</a><ul><li><a href=#master-data class="table-of-contents__link toc-highlight">Master Data</a><li><a href=#inventory class="table-of-contents__link toc-highlight">Inventory</a><li><a href=#invoicing class="table-of-contents__link toc-highlight">Invoicing</a><li><a href=#purchase class="table-of-contents__link toc-highlight">Purchase</a><li><a href=#manufacturing class="table-of-contents__link toc-highlight">Manufacturing</a><li><a href=#sales class="table-of-contents__link toc-highlight">Sales</a><li><a href=#retail class="table-of-contents__link toc-highlight">Retail</a><li><a href=#project-management class="table-of-contents__link toc-highlight">Project Management</a><li><a href=#human-resources class="table-of-contents__link toc-highlight">Human Resources</a><li><a href=#crm class="table-of-contents__link toc-highlight">CRM</a><li><a href=#transport class="table-of-contents__link toc-highlight">Transport</a></ul></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class=footer__title>MyCompany</div><ul class="footer__items clean-list"><li class=footer__item><a class=footer__link-item href=/>Docs</a><li class=footer__item><a href=https://mycompany.lsfusion.org/ target=_blank rel="noopener noreferrer" class=footer__link-item>Website<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a></ul></div><div class="col footer__col"><div class=footer__title>Community</div><ul class="footer__items clean-list"><li class=footer__item><a href=https://t.me/lsfusion_official target=_blank rel="noopener noreferrer" class=footer__link-item>Telegram<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a><li class=footer__item><a href=https://join.slack.com/t/lsfusion/shared_invite/zt-1itj7vlmf-9aBIP__nj9iMJglDaecqXg target=_blank rel="noopener noreferrer" class=footer__link-item>Slack<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a><li class=footer__item><a href=https://ru.stackoverflow.com/questions/tagged/lsfusion target=_blank rel="noopener noreferrer" class=footer__link-item>Stack Overflow<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a></ul></div><div class="col footer__col"><div class=footer__title>More</div><ul class="footer__items clean-list"><li class=footer__item><a href=https://habr.com/ru/company/lsfusion/blog/ target=_blank rel="noopener noreferrer" class=footer__link-item>Habr<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a><li class=footer__item><a href=https://github.com/lsfusion-solutions/mycompany target=_blank rel="noopener noreferrer" class=footer__link-item>GitHub<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a></ul></div></div><div class="footer__bottom text--center"><div class=footer__copyright>Copyright © 2026 lsFusion Foundation. Built with Docusaurus.</div></div></div></footer></div>
