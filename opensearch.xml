@@ -4,8 +4,8 @@
   <ShortName>MyCompany documentation</ShortName>
   <Description>Search MyCompany documentation</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://lsfusion-solutions.github.io/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://lsfusion-solutions.github.io/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://lsfusion-solutions.github.io/opensearch.xml" />
-  <moz:SearchForm>https://lsfusion-solutions.github.io/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://mycompany-docs.lsfusion.org/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://mycompany-docs.lsfusion.org/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://mycompany-docs.lsfusion.org/opensearch.xml" />
+  <moz:SearchForm>https://mycompany-docs.lsfusion.org/</moz:SearchForm>
 </OpenSearchDescription>
